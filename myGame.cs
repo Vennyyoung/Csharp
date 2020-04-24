@@ -18,7 +18,7 @@ namespace myGame
             Console.WriteLine ("[{0}]", string.Join (" ", level));
             Console.Write ("Select Your Level: ");
             string player = Console.ReadLine ();
-
+//for easy level
             for (int i = 1; i < 7; i++) {
                 if (player == level[0]) {
                     Console.Write ("Pick a number from 1 - 10: ");
@@ -27,7 +27,7 @@ namespace myGame
                     else if(playerguess != easy){Console.WriteLine("That was Wrong");}
                     }
                     }
-                    
+//for medium level                    
            for(int i = 1; i < 5; i++){
                 if(player == level[1]){
                     Console.Write("Pick a number from 1 - 21:");
@@ -37,7 +37,7 @@ namespace myGame
                     }
                     }
   
-
+//for hard level
            for(int i = 1; i < 4; i++){
                 if(player == level[2]){
                     Console.Write("Pick a number from 1 - 51:");
